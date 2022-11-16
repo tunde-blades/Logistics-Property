@@ -16,7 +16,7 @@ function Header() {
   return (
     <header className={style.headcontainer}>
       <div className={style.headbox}>
-        <picture><img src={logo} alt="" /></picture>
+        <picture className={style.logo}><Link to='/'><img src={logo} alt="" /></Link></picture>
         <div className={style.menu}>
           {openMenu? <h3 onClick={displayMenu}className={style.menu}><FaTimes></FaTimes> </h3>:<h3 onClick={displayMenu} className={style.menu}><FaBars/> </h3>}
           {openMenu && <Menu/>}

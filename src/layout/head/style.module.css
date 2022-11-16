@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.logo{
+    cursor: pointer;
+}
 .headbox img{
     width: 70%;
 }
