@@ -112,7 +112,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
-    height:80vh;
+    height:60vh;
     padding: 10px 0;
     margin: 50px 0;
 }
@@ -234,6 +234,9 @@
 .content2{
     position: relative;
     right: 0;
+}
+.section3{
+    height: 70vh;
 }
 .section3box{
     display: flex;

@@ -61,7 +61,13 @@
         min-height: 70vh ;
     }
     .footer menu{
-    padding: 0;
     font-size: 15px;
    }
+}
+
+@media (min-width:800px) {
+    .footer menu{
+        padding: 0;
+    }
+
 }
