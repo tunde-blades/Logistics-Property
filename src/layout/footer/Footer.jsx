@@ -42,7 +42,7 @@ export default function Footer() {
                 <img src={biglogo} alt=''/>
             </picture>
 
-        </section>\
+        </section>
     </footer>
   )
 }
