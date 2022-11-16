@@ -1,0 +1,28 @@
+.galleryhead{
+    position: relative;
+    height:40vh;
+    background: url('../../assets/images/gallery.png');
+    background-color: #181f22d0;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.galleryhead h2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+.gallery{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.gallery img{
+    margin: 20px;
+}

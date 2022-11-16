@@ -1,0 +1,65 @@
+.contacthead{
+    position: relative;
+    height:40vh;
+    background: url('../../assets/images/contactus.png');
+    background-color: #181f22d0;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contacthead h2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+.contact{
+    padding: 50px 0;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.contact ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.contact ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact ul li span{
+
+}
+.contact small{
+    color: #DBBC8F;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.contact .address{
+    padding: 20px 0;
+    width: 350px;
+}
+
+@media (max-width:700px) {
+    .contact{
+        font-size: 15px;
+    }
+    .contact ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+.contact ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+}

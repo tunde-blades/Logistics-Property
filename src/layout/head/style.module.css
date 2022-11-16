@@ -1,0 +1,45 @@
+.headbox{
+    background-color: rgb(252, 252, 252);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headbox img{
+    width: 70%;
+}
+.menu{
+    display: block;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #011419;
+}
+.tabNav{
+    display: none;
+}
+
+.contact{
+    background-color:#174051;
+    padding: 5px 10px;
+    color: white;
+}
+.tabNav a:not(.contact){
+ color: #011419;
+}
+@media (min-width:800px) {
+    .menu{
+        display: none;
+    }
+    .tabNav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 600px;
+    color: #011419;
+    font-family: sans-serif;
+    font-size: 14px;
+    /* color: #DBBC8F; */
+}
+}

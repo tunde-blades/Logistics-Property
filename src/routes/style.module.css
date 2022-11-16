@@ -1,0 +1,6 @@
+.allSize{
+    max-width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
