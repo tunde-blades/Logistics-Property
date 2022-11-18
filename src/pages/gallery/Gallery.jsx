@@ -16,13 +16,19 @@ export default function Gallery() {
         <div className={style.galleryhead}>
           <h2>Gallery</h2>
         </div>
-        <picture id='container' className={style.gallery}>
-            <img src={image2} alt="" />
-            <img src={image3} alt="" />
-            <img src={image4} alt="" />
-            <img src={image5} alt="" />
-            <img src={image6} alt="" />
-        </picture>
+        <section id='container' className={style.gallery}>
+         <div className={style.headH}>
+              <h2>Alpha Court</h2>
+              <p className={style.rule}></p>
+           </div>
+          <picture className={style.images}>
+              <img src={image2} alt="" />
+              <img src={image3} alt="" />
+              <img src={image4} alt="" />
+              <img src={image5} alt="" />
+              <img src={image6} alt="" />
+          </picture>
+        </section>
         <Footer/>
     </section>
   )

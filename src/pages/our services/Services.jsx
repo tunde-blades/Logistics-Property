@@ -2,6 +2,9 @@ import React from 'react'
 import Header from '../../layout/head/Header'
 import Footer from '../../layout/footer/Footer'
 import style from './style.module.css'
+import {Minus} from '@icon-park/react';
+
+
 export default function Services() {
   return (
     <section>
@@ -10,9 +13,12 @@ export default function Services() {
           <h2>Services</h2>
         </div>
         <article id='container' className={style.service}>
-          <section>
-            <h2>Services</h2>
-            <p>We are committed to leading our clients to the right homes and walking them through right decision-making pertaining to their properties.</p>
+          <section className={style.sect1}>
+           <div className={style.headH}>
+              <h2>Services</h2>
+              <p className={style.rule}></p>
+           </div>
+            <p className={style.headP}>We are committed to leading our clients to the right homes and walking them through right decision-making pertaining to their properties.</p>
           </section>
           <section>
             <h3>Real Estate Consultancy and Advisory</h3>

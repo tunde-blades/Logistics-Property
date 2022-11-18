@@ -18,8 +18,20 @@
 }
 .contact{
     padding: 50px 0;
-    font-size: 17px;
     font-family: sans-serif;
+}
+.contact h2{
+    color: #181f22d0;
+    font-family: serif;
+}
+.headH{
+    margin-bottom: 10px;
+}
+.contact .rule{
+    background-color: #181f22d0;
+    padding-right: 40px;
+    width: 20px;
+    height: 1px;
 }
 .contact ul{
     display: flex;

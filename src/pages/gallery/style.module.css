@@ -16,13 +16,24 @@
     transform: translate(-50%,-50%);
     font-size: 30px;
 }
-.gallery{
-    padding: 50px 0;
+.headH{
+    margin-top: 50px;
+    color: #181f22d0;
+}
+.headH .rule{
+    margin-top: 3px;
+    background-color: #181f22d0;
+    padding-right: 40px;
+    width: 20px;
+    height: 1px;
+    border-radius: 4px;
+}
+.images{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 .gallery img{
-    margin: 20px;
+    margin: 20px 40px 0 0;
 }

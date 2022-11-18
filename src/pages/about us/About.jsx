@@ -11,7 +11,10 @@ export default function About() {
         </div>
         <article id='container' className={style.about}>
           <section>
-            <h2 className={style.aboutus}>About Us</h2>
+            <div className={style.headH}>
+              <h2 className={style.aboutus}>About Us</h2>
+              <p className={style.rule}></p>
+            </div>
             <p>
               Property Logistics Co. is a real estate establishment founded and established in Nigeria to provide 
                 comprehensive property advisory, development, management services and solutions not only to landlords, 
