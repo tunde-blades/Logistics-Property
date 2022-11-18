@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
 }
 .btn2{
     background-color: #DBBC8F;
@@ -17,6 +18,7 @@
     border: none;
     width: max-content;
     margin-top: 20px;
+    cursor: pointer;
 }
 .btn3{
     background: #174051;
@@ -26,6 +28,7 @@
     border: none;
     width: max-content;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 @media (max-width:700px) {

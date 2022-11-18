@@ -24,11 +24,11 @@ export default function Contact() {
            <menu>
             <ul>
               <li> <small><FaPhoneAlt/></small><span>+2347017173859</span> </li>
-              <li><Callbtn/> </li>
+              <a href="tel:+2347017173859"><li><Callbtn/> </li></a>
             </ul>
             <ul>
               <li> <small><FontAwesomeIcon icon={faMessage}/></small> <span>propertylogisticsco@gmail.com</span> </li>
-              <li><Messagebtn/> </li>
+              <a href="sms:998998911626?body=thank you"><li><Messagebtn/> </li></a>
             </ul>
             <div className={style.address}><small><FontAwesomeIcon icon={faLocationPin}/></small> <span>1b, Alh Hussein Sumonu Street, Lagos 105102 Lekki Phase 1 Nigeria</span> </div>
            </menu>

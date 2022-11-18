@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '../../layout/head/Header'
 import Footer from '../../layout/footer/Footer'
 import style from './style.module.css'
-import {Minus} from '@icon-park/react';
 
 
 export default function Services() {
